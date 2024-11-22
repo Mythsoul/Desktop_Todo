@@ -1,15 +1,18 @@
 {
-  "name": "desktop_todo",
+  "name": "electron-todo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Mythsoul",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "electron": "^33.2.0"
+  "dependencies": {
+    "electron": "^33.2.0",
+    "pg": "^8.13.1"
   }
 }
